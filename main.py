@@ -1,7 +1,4 @@
-from carta import Carta
+from baraja import Baraja
 
-NuevaCarta = Carta("Corazones","As")
-print(NuevaCarta)
-
-NuevaCarta2 = Carta("Corazones", 8)
-print(NuevaCarta2)
+baraja1 = Baraja()
+baraja1.mostrar()
