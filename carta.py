@@ -2,7 +2,7 @@
 
 class Carta:
     def __init__(self, palo, valor): #construir
-        self.palo = palo
+        self.pal = palo
         self.valor = valor
     def __repr__(self): #método para mostrar la carta
-       return f"{self.valor} de {self.palo}" 
+       return f"{self.valor} de {self.pal}" 

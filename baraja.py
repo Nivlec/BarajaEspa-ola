@@ -1,4 +1,5 @@
 from carta import Carta
+import random
 
 class Baraja:
 
@@ -14,3 +15,9 @@ class Baraja:
     def mostrar(self):
         for carta in self.cartas:
             print(carta)
+
+    def sacar_carta(self):
+        return self.cartas.pop()
+    
+    def barajar(self):
+        random.shuffle(self.cartas)
